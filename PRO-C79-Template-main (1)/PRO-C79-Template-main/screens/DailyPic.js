@@ -33,10 +33,10 @@ export default class DailyPicScreen extends Component {
 
        
 
-         <Image source={ "uri": url }
-         style={{ width: "100%", height: 300, 
-        borderRadius: 20, margin: 3 }}>
-         </Image>
+         <Image require={{ "uri": url }}
+     style={{ width: "100%", height: 300,
+     borderRadius: 20, margin: 3 }}>
+     </Image>
         
        
         
